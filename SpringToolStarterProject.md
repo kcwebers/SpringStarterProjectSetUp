@@ -13,7 +13,7 @@ Inside of the Pop-up we need to:
 * Group name convention... `com.username` <-- your username/initials here
 * Package name convention... `com.username.loginreg` <-- your project name here!
 
-![Spring Tool Starter Project set-up](/screencaps/sp_start.png "Spring Tool Starter Project set-up")
+![Spring Tool Starter Project set-up](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/sp_start.PNG "Spring Tool Starter Project set-up")
 
 Once these are set choose `Next`
 
