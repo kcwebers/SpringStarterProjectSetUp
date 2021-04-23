@@ -184,3 +184,30 @@ As you create your packages, you can add the remainder of the name onto the end.
 * ` com.username.loginreg.repositories `
 * ` com.username.loginreg.services `
 * ` com.username.loginreg.validators `
+
+### Step 6 - Get Building!
+
+you should now have everything you need to work on your project! As a final note, listed below are the appropriate imports for various files in your program :)
+
+Models
+
+![Models imports](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/model.PNG "Models imports")
+
+Repositories
+
+![Repositories imports](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/repo.PNG "Repositories imports")
+
+Services
+
+![Services imports](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/service.PNG "Services imports")
+
+Controllers
+
+![Controllers imports](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/controller.PNG "Controllers imports")
+
+Validators
+
+![Validators imports](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/validator.PNG "Validators imports")
+
+
+Additionally, make sure you're importing the appropriate files related specifically to your project (models, repos, etc) as you use them in additional files!
