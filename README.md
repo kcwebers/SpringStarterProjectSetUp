@@ -34,7 +34,7 @@ Last, click ` Finish `
 
 Your ` pom.xml ` is located at the very bottom of your project's file tree. 
 
-![Spring Tool Starter Project set-up dependencies](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/pomxml.png "Spring Tool Starter Project set-up dependencies")
+![Pom.xml location](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/pomxml.png "Pom.xml location")
 
 Add these to the ` <dependencies></dependencies> ` tag in the file and save it
 
@@ -100,3 +100,28 @@ Add these to the ` <dependencies></dependencies> ` tag in the file and save it
 ```
 
 If you are having trouble with these dependencies, remove the comments!
+
+### Step 3 - Adding Settings to `application.properties`
+
+Next add this line to the `src/main/resources/application.properties` file
+
+```
+spring.mvc.view.prefix=/WEB-INF/
+
+spring.datasource.url=jdbc:mysql://localhost:3306/<<YOUR_SCHEMA>>?&serverTimezone=UTC
+spring.datasource.username=<<YOUR_USERNAME>>
+spring.datasource.password=<<YOUR_PASSWORD>>
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mvc.hiddenmethod.filter.enabled=true
+
+spring.mvc.view.prefix=/WEB-INF/
+```
+
+Swap out the `<<YOUR_USERNAME>>`, `<<YOUR_PASSWORD>>`, and `<<YOUR_SCHEMA>>` for the details related to your project. 
+
+#### Important!
+
+Don't forget to create a schema for your project in MySQL! you can do so by accessing your workbench and entering your local instance (likely Local Instance at port 3306). After that, select the option to create your schema, name it as you like, and hit `Apply`.
+
+![Adding schema to MySQL to connect to project](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/createschema.PNG "Adding schema to MySQL to connect to project")
