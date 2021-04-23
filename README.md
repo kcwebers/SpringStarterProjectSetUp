@@ -4,7 +4,7 @@
 
 Inside of `Package Explorer` right click -> new -> Spring Starter Project
 
-![Create Spring Starter Project](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/createproj.PNG "Create Spring Starter Project")
+![Create Spring Starter Project](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/createproj.png "Create Spring Starter Project")
 
 Inside of the Pop-up we need to:
 
