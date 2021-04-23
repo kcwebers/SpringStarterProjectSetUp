@@ -171,3 +171,16 @@ This boiler plate has the Bootstrap v4 already attached so you can incorporate c
 Create your packages! you can leave these empty until you add you files to them as you build out your project.
 
 ![Packages](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/packages.PNG "Packages")
+
+Note that your packages follow the same naming conventions as dictated above.
+
+* Package name convention... ` com.username.loginreg ` <-- your project name here!
+
+As you create your packages, you can add the remainder of the name onto the end. Make sure you have all of the names correct! This helps your data flow through your project correctly! For example:
+
+` com.username.loginreg `
+` com.username.loginreg.controllers `
+` com.username.loginreg.models `
+` com.username.loginreg.repositories `
+` com.username.loginreg.services `
+` com.username.loginreg.validators `
