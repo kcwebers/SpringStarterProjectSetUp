@@ -99,7 +99,9 @@ Add these to the ` <dependencies></dependencies> ` tag in the file and save it
 </dependencies>
 ```
 
-If you are having trouble with these dependencies, remove the comments!
+If you are having trouble with these dependencies, remove the comments! To confirm that you've properly added the dependencies to your pom.xml, you can open your pom.xml and select the `dependencies` tab to see them listed out!
+
+![Pom dependencies](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/depen.PNG "Pom dependencies")
 
 ### Step 3 - Adding Settings to `application.properties` and connecting to MySQL
 
