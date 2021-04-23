@@ -4,6 +4,8 @@
 
 Inside of `Package Explorer` right click -> new -> Spring Starter Project
 
+![Create Spring Starter Project](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/createproj.PNG "Create Spring Starter Project")
+
 Inside of the Pop-up we need to:
 
 * Create a unique project name, example `LoginReg`
@@ -28,7 +30,7 @@ Last, click `Finish`
 
 ### If you select these options often, they may appear above in the `Frequently Used` section!
 
-### Step 1 - pom.xml
+### Step 2 - pom.xml
 
 Add these to the `<dependencies></dependencies>` tag in the file and save it
 
