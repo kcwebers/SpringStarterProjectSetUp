@@ -115,7 +115,6 @@ spring.jpa.hibernate.ddl-auto=update
 
 spring.mvc.hiddenmethod.filter.enabled=true
 
-spring.mvc.view.prefix=/WEB-INF/
 ```
 
 Swap out the `<<YOUR_USERNAME>>`, `<<YOUR_PASSWORD>>`, and `<<YOUR_SCHEMA>>` for the details related to your project. 
