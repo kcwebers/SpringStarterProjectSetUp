@@ -1,4 +1,4 @@
-# Spring Boot Starte Project - Checklist
+# Spring Boot Starter Project - Checklist
 
 ### Step 1 - Creating a new project
 
