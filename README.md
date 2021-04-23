@@ -101,7 +101,7 @@ Add these to the ` <dependencies></dependencies> ` tag in the file and save it
 
 If you are having trouble with these dependencies, remove the comments!
 
-### Step 3 - Adding Settings to `application.properties`
+### Step 3 - Adding Settings to `application.properties` and connecting to MySQL
 
 Next add this line to the `src/main/resources/application.properties` file
 
@@ -125,3 +125,45 @@ Swap out the `<<YOUR_USERNAME>>`, `<<YOUR_PASSWORD>>`, and `<<YOUR_SCHEMA>>` for
 Don't forget to create a schema for your project in MySQL! you can do so by accessing your workbench and entering your local instance (likely Local Instance at port 3306). After that, select the option to create your schema, name it as you like, and hit `Apply`.
 
 ![Adding schema to MySQL to connect to project](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/createschema.PNG "Adding schema to MySQL to connect to project")
+
+### Step 4 - Adding Settings to `application.properties` and connecting to MySQL
+
+Create the folder `src/main/webapp/WEB-INF`
+Create the file `src/main/webapp/WEB-INF/index.jsp`
+
+![WEB-INF folder](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/webinf.png "WEB-INF folder")
+
+Here is a boiler plate for your this `.jsp` pages:
+
+```html
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+   <!-- c:out ; c:forEach ; c:if -->
+ <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
+   <!-- Formatting (like dates) -->
+ <%@taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+   <!-- form:form -->
+ <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>  
+   <!-- for rendering errors on PUT routes -->
+ <%@ page isErrorPage="true" %>   
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title Here</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container"> <!-- Beginning of Container -->
+        
+    </div> <!-- End of Container -->
+</body>
+</html>
+```
+
+This boiler plate has the Bootstrap v4 already attached so you can incorporate css easily! If you prefer v5 you can swap out the link as you like :). Additionally, there are taglibs for your `<form:form>` tags, any `fmt:` tags you may use, and the `core` tag. 
