@@ -128,8 +128,7 @@ Don't forget to create a schema for your project in MySQL! you can do so by acce
 
 ### Step 4 - Adding Settings to `application.properties` and connecting to MySQL
 
-Create the folder `src/main/webapp/WEB-INF`
-Create the file `src/main/webapp/WEB-INF/index.jsp`
+Create the folder `src/main/webapp/WEB-INF`. This is where you will store your `.jsp` files! For example:
 
 ![WEB-INF folder](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/webinf.png "WEB-INF folder")
 
