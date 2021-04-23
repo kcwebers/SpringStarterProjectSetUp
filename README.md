@@ -165,3 +165,9 @@ Here is a boiler plate for your this `.jsp` pages:
 ```
 
 This boiler plate has the Bootstrap v4 already attached so you can incorporate css easily! If you prefer v5 you can swap out the link as you like :). Additionally, there are taglibs for your `<form:form>` tags, any `fmt:` tags you may use, and the `core` tag. 
+
+### Step 5 - Creating `packages`
+
+Create your packages! you can leave these empty until you add you files to them as you build out your project.
+
+![Packages](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/packages.PNG "Packages")
