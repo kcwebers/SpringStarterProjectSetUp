@@ -24,7 +24,9 @@ Select/Search for the following packages:
 
 Last, click `Finish`
 
-![Spring Tool Starter Project set-up dependencies](/screencaps/dependencies.png "Spring Tool Starter Project set-up dependencies")
+![Spring Tool Starter Project set-up dependencies](https://github.com/kcwebers/SpringStarterProjectSetUp/blob/main/screencaps/dependencies.PNG "Spring Tool Starter Project set-up dependencies")
+
+## If you select these options often, they may appear above in the `Frequently Used` section!
 
 ### Step 1 - pom.xml
 
